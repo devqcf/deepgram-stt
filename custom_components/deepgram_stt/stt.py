@@ -80,7 +80,7 @@ class DeepgramSTTEntity(SpeechToTextEntity):
     @property
     def supported_languages(self) -> list[str]:
         """Return supported languages."""
-        return ["pl", "en", "de", "es", "fr", "it", "nl", "pt"]
+        return ["pl", "en", "ru", "de", "es", "fr", "it", "nl", "pt"]
 
     @property
     def supported_formats(self) -> list[AudioFormats]:
